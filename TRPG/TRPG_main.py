@@ -1,5 +1,5 @@
 import os
-import Inventory11
+import Inventory
 
 user_hp = 100
 user_xp = 0
@@ -29,7 +29,7 @@ def show_location_home(game, user_hp,user_xp,user_name, user_money,user_inventor
             user_choise = input("Что делать? ")
 
         if user_choise == 1:
-            Inventory11.show_location_shop(user_name, user_money, user_inventory)
+            Inventory.show_location_shop(user_name, user_money, user_inventory)
         else:
             game = False
 
