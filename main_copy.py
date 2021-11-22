@@ -25,7 +25,7 @@ def show_location_home(game, user_hp,user_xp,user_name, user_money, user_invento
         os.system("cls")
         print(f"{user_name} сидит на базе")
         print(f"Имя {user_name}")
-        print(f"Деньги: {user_money}") # TODO при возвращении на базу, у персонажа восстанавливаются деньги
+        print(f"Деньги: {user_money}") # FIXME при возвращении на базу, у персонажа восстанавливаются деньги
         print(f"Инвентарь:")
         for item in user_inventory:
             print("•", item)
